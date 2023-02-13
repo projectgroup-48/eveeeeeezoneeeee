@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1002242357923",
+    "project_id": "evezone-v11-f07dd",
+    "storage_bucket": "evezone-v11-f07dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002242357923:android:b99a52ebb702df160f5d16",
+        "android_client_info": {
+          "package_name": "com.example.evezone_v11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002242357923-ttg0qocnonk7c664uh0qlp696b4ilplu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.evezone_v11",
+            "certificate_hash": "8ffcd405684cf8747f80fc18d4af266c84dbae17"
+          }
+        },
+        {
+          "client_id": "1002242357923-7hcj0mhi85jmckvok802psq70g659gbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSOEUbuP4Y1rdSP0Fv0P474WsaWsabEMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002242357923-7hcj0mhi85jmckvok802psq70g659gbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

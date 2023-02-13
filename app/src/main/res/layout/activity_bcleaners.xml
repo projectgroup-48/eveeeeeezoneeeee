@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".b_dancers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cleaners"
+            android:textSize="30sp"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/ic_user"
+            android:hint="Your Name"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/prof"
+            android:layout_width="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Your Profession"
+            android:drawableRight="@drawable/ic_exp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/exper"
+            android:layout_width="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Your Experience"
+            android:drawableRight="@drawable/ic_time"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/rate"
+            android:layout_width="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Your Rate"
+            android:drawableRight="@drawable/ic_rate"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/contact"
+            android:layout_width="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Your Contact Number"
+            android:drawableRight="@drawable/ic_phone"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Your City"
+            android:drawableRight="@drawable/ic_location"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/link"
+            android:layout_width="310dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Your YouTube Link"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/clnbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="100dp"
+            android:text="SUBMIT"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
